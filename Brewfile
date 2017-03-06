@@ -5,13 +5,17 @@ tap caskroom/cask
 cask alfred
 cask android-studio
 cask appcode
+cask firefox
+cask genymotion
 cask google-chrome
 cask intellij-idea
+cask iterm2
 cask java
 cask opera
 cask rubymine
 cask sequel-pro
 cask slack
+cask thunderbird
 cask vagrant-manager
 cask vagrant
 cask virtualbox
@@ -25,6 +29,7 @@ cask font-source-code-pro-for-powerline
 cask font-source-code-pro
 
 tap homebrew/core
+brew ack
 brew asciinema
 brew autoconf
 brew automake
@@ -34,13 +39,17 @@ brew cmake
 brew coreutils
 brew direnv
 brew dirmngr
+brew docker
+brew docker-machine
 brew emacs
+brew flyway
 brew fontconfig --universal
 brew freetype --universal
 brew gcc
 brew gd --universal
 brew gdbm
 brew ghi
+brew ghq
 brew git
 brew glide
 brew gmp
@@ -48,6 +57,7 @@ brew gnupg
 brew gnupg2
 brew gnutls
 brew go
+brew gperftools
 brew gpg-agent
 brew gradle
 brew graphviz
@@ -67,7 +77,7 @@ brew libicns --universal
 brew libksba
 brew libmpc
 brew libpng --universal
-brew libtasn1 --universal
+brew libtasn1
 brew libtiff --universal
 brew libtool --universal
 brew libunistring
@@ -77,6 +87,8 @@ brew libxml2
 brew libxslt
 brew little-cms2 --universal
 brew makedepend
+brew mas
+brew maven
 brew mecab
 brew mono
 brew mpfr
@@ -114,7 +126,6 @@ brew xctool
 brew xz
 brew zsh
 brew zsh-completions
-brew mas
 
 tap homebrew/dupes
 brew libiconv
@@ -129,14 +140,18 @@ tap railwaycat/emacsmacport
 tap rcmdnk/file
 brew brew-file
 
+tap tkengo/highway
+brew highway
+
 # App Store applications
 appstore 549083868 Display Menu (2.2.2)
-appstore 682658836 GarageBand (10.1.5)
+appstore 682658836 GarageBand (10.1.6)
+appstore 668208984 GIPHY CAPTURE (2.4)
+appstore 408981434 iMovie (10.1.4)
 appstore 409183694 Keynote (7.0.5)
 appstore 409203825 Numbers (4.0.5)
 appstore 409201541 Pages (6.0.5)
-appstore 1007457278 Realm Browser (2.1.4)
+appstore 1007457278 Realm Browser (2.1.5)
 appstore 852320343 Sketch (3.4.2)
 appstore 497799835 Xcode (8.2.1)
 appstore 961651406 Xliffie (1.3.2)
-appstore 408981434 iMovie (10.1.4)
