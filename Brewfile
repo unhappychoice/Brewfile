@@ -4,22 +4,17 @@
 tap caskroom/cask
 cask alfred
 cask android-studio
-cask appcode
 cask firefox
 cask genymotion
 cask google-chrome
 cask intellij-idea
 cask iterm2
 cask java
-cask opera
-cask rubymine
 cask sequel-pro
 cask slack
-cask thunderbird
 cask vagrant-manager
 cask vagrant
 cask virtualbox
-cask webstorm
 cask xquartz
 
 tap caskroom/fonts
