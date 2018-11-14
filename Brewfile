@@ -1,22 +1,6 @@
 
 # tap repositories and their packages
 
-tap caskroom/cask
-cask alfred
-cask google-chrome
-cask intellij-idea
-cask iterm2
-cask java
-cask sequel-pro
-cask slack
-cask xquartz
-
-tap caskroom/fonts
-cask font-fira-code
-cask font-ricty-diminished
-cask font-source-code-pro-for-powerline
-cask font-source-code-pro
-
 tap homebrew/core
 brew ack
 brew autoconf
@@ -28,10 +12,10 @@ brew coreutils
 brew direnv
 brew emacs
 brew flyway
-brew fontconfig --universal
-brew freetype --universal
+brew fontconfig
+brew freetype
 brew gcc
-brew gd --universal
+brew gd
 brew gdbm
 brew ghi
 brew ghq
@@ -39,7 +23,6 @@ brew git
 brew glide
 brew gmp
 brew gnupg
-brew gnupg2
 brew gnutls
 brew go
 brew gperftools
@@ -48,27 +31,27 @@ brew graphviz
 brew hub
 brew imagemagick
 brew isl
-brew jasper --universal
-brew jpeg --universal
+brew jasper
+brew jpeg
 brew jq
 brew libassuan
 brew libffi
 brew libgcrypt
 brew libgpg-error
-brew libgphoto2 --universal
-brew libicns --universal
+brew libgphoto2
+brew libicns
 brew libksba
 brew libmpc
-brew libpng --universal
+brew libpng
 brew libtasn1
-brew libtiff --universal
-brew libtool --universal
+brew libtiff
+brew libtool
 brew libunistring
-brew libusb --universal
-brew libusb-compat --universal
+brew libusb
+brew libusb-compat
 brew libxml2
 brew libxslt
-brew little-cms2 --universal
+brew little-cms2
 brew makedepend
 brew mas
 brew maven
@@ -87,12 +70,11 @@ brew peco
 brew pinentry
 brew pkg-config
 brew pth
-brew python3
 brew rbenv
 brew readline
 brew redis
 brew ruby-build
-brew sane-backends --universal
+brew sane-backends
 brew sbt
 brew sphinx-doc
 brew sqlite
@@ -101,11 +83,15 @@ brew tig
 brew ttygif
 brew ttyrec
 brew vegeta
-brew webp --universal
+brew webp
 brew wine
 brew xz
 brew zsh
 brew zsh-completions
+
+tap caskroom/cask
+
+tap caskroom/fonts
 
 tap michaeldfallen/formula
 brew git-radar
@@ -118,3 +104,20 @@ brew brew-file
 tap tkengo/highway
 brew highway
 
+# Other Homebrew packages
+brew gnupg2
+brew python3
+
+# Other Cask applications
+cask alfred
+cask font-fira-code
+cask font-ricty-diminished
+cask font-source-code-pro
+cask font-source-code-pro-for-powerline
+cask google-chrome
+cask intellij-idea
+cask iterm2
+cask java
+cask sequel-pro
+cask slack
+cask xquartz
