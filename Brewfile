@@ -113,9 +113,6 @@ brew xz
 brew zsh
 brew zsh-completions
 
-tap homebrew/dupes
-brew libiconv
-
 tap homebrew/versions
 
 tap michaeldfallen/formula
