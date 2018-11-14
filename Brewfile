@@ -45,7 +45,6 @@ brew go
 brew gperftools
 brew gradle
 brew graphviz
-brew heroku
 brew hub
 brew imagemagick
 brew isl
