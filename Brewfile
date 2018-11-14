@@ -43,7 +43,6 @@ brew gnupg2
 brew gnutls
 brew go
 brew gperftools
-brew gpg-agent
 brew gradle
 brew graphviz
 brew heroku
