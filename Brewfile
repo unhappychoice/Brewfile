@@ -113,8 +113,6 @@ brew xz
 brew zsh
 brew zsh-completions
 
-tap homebrew/versions
-
 tap michaeldfallen/formula
 brew git-radar
 
