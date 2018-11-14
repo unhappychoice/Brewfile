@@ -96,7 +96,6 @@ brew sane-backends --universal
 brew sbt
 brew sphinx-doc
 brew sqlite
-brew swiftlint
 brew thefuck
 brew tig
 brew ttygif
