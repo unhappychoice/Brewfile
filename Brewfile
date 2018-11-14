@@ -84,7 +84,6 @@ brew openssl
 brew p11-kit
 brew pcre
 brew peco
-brew phantomjs
 brew pinentry
 brew pkg-config
 brew pth
