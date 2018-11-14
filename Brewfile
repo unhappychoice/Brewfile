@@ -26,7 +26,6 @@ brew carthage
 brew cmake
 brew coreutils
 brew direnv
-brew dirmngr
 brew emacs
 brew flyway
 brew fontconfig --universal
