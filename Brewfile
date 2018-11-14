@@ -103,7 +103,6 @@ brew ttyrec
 brew vegeta
 brew webp --universal
 brew wine
-brew xctool
 brew xz
 brew zsh
 brew zsh-completions
