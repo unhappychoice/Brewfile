@@ -108,7 +108,7 @@ cask font-source-code-pro
 tap homebrew/cask
 cask 1password
 cask alfred
-cask docker
+cask chromedriver
 cask google-chrome
 cask iterm2
 cask karabiner-elements
@@ -132,6 +132,7 @@ brew gpg2
 # Other Cask applications
 cask abstract
 cask appcode
+cask docker
 cask font-ricty-diminished
 cask font-source-code-pro-for-powerline
 cask intellij-idea
