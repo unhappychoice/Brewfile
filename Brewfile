@@ -3,6 +3,7 @@
 
 tap homebrew/core
 brew ack
+brew adns
 brew autoconf
 brew automake
 brew boost
@@ -17,9 +18,11 @@ brew freetype
 brew gcc
 brew gd
 brew gdbm
+brew gettext
 brew ghi
 brew ghq
 brew git
+brew git-lfs
 brew glide
 brew gmp
 brew gnupg
@@ -28,6 +31,7 @@ brew go
 brew gperftools
 brew gradle
 brew graphviz
+brew homeshick
 brew hub
 brew imagemagick
 brew isl
@@ -59,17 +63,25 @@ brew mecab
 brew mono
 brew mpfr
 brew mysql
+brew nano
+brew ncurses
 brew net-snmp
 brew nettle
 brew nodebrew
+brew npth
 brew oniguruma
+brew openjpeg
 brew openssl
 brew p11-kit
 brew pcre
+brew pcre2
 brew peco
 brew pinentry
+brew pinentry-mac
 brew pkg-config
 brew pth
+brew python
+brew python@2
 brew rbenv
 brew readline
 brew redis
@@ -89,9 +101,19 @@ brew xz
 brew zsh
 brew zsh-completions
 
-tap caskroom/cask
+tap homebrew/cask-fonts
+cask font-fira-code
+cask font-source-code-pro
 
-tap caskroom/fonts
+tap homebrew/cask
+cask 1password
+cask alfred
+cask docker
+cask google-chrome
+cask iterm2
+cask karabiner-elements
+cask slack
+cask xquartz
 
 tap michaeldfallen/formula
 brew git-radar
@@ -105,19 +127,22 @@ tap tkengo/highway
 brew highway
 
 # Other Homebrew packages
-brew gnupg2
-brew python3
+brew gpg2
 
 # Other Cask applications
-cask alfred
-cask font-fira-code
+cask abstract
+cask appcode
 cask font-ricty-diminished
-cask font-source-code-pro
 cask font-source-code-pro-for-powerline
-cask google-chrome
 cask intellij-idea
-cask iterm2
 cask java
 cask sequel-pro
-cask slack
-cask xquartz
+cask vivaldi
+
+# App Store applications
+appstore 682658836 GarageBand (10.3.1)
+appstore 408981434 iMovie (10.1.9)
+appstore 409183694 Keynote (8.1)
+appstore 409203825 Numbers (5.1)
+appstore 409201541 Pages (7.1)
+appstore 497799835 Xcode (10.1)
