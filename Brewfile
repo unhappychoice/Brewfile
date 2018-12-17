@@ -6,6 +6,8 @@ brew ack
 brew adns
 brew autoconf
 brew automake
+brew awscli
+brew awslogs
 brew boost
 brew carthage
 brew cmake
@@ -33,7 +35,9 @@ brew gradle
 brew graphviz
 brew homeshick
 brew hub
+brew icu4c
 brew imagemagick
+brew imagemagick@6
 brew isl
 brew jasper
 brew jpeg
@@ -62,7 +66,7 @@ brew maven
 brew mecab
 brew mono
 brew mpfr
-brew mysql
+brew mysql@5.7
 brew nano
 brew ncurses
 brew net-snmp
@@ -110,10 +114,10 @@ cask 1password
 cask alfred
 cask chromedriver
 cask google-chrome
-cask iterm2
-cask karabiner-elements
-cask slack
-cask xquartz
+cask intellij-idea
+cask java
+cask sequel-pro
+cask vivaldi
 
 tap michaeldfallen/formula
 brew git-radar
@@ -128,6 +132,7 @@ brew highway
 
 # Other Homebrew packages
 brew gpg2
+brew postgres
 
 # Other Cask applications
 cask abstract
@@ -135,10 +140,11 @@ cask appcode
 cask docker
 cask font-ricty-diminished
 cask font-source-code-pro-for-powerline
-cask intellij-idea
-cask java
-cask sequel-pro
-cask vivaldi
+cask google-japanese-ime
+cask iterm2
+cask karabiner-elements
+cask slack
+cask xquartz
 
 # App Store applications
 appstore 682658836 GarageBand (10.3.1)
