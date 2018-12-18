@@ -112,12 +112,13 @@ cask font-source-code-pro
 tap homebrew/cask
 cask 1password
 cask alfred
+cask android-sdk
 cask chromedriver
 cask google-chrome
 cask intellij-idea
-cask java
-cask sequel-pro
-cask vivaldi
+cask karabiner-elements
+cask slack
+cask xquartz
 
 tap michaeldfallen/formula
 brew git-radar
@@ -136,15 +137,16 @@ brew postgres
 
 # Other Cask applications
 cask abstract
+cask android-platform-tools
 cask appcode
 cask docker
 cask font-ricty-diminished
 cask font-source-code-pro-for-powerline
 cask google-japanese-ime
 cask iterm2
-cask karabiner-elements
-cask slack
-cask xquartz
+cask java8
+cask sequel-pro
+cask vivaldi
 
 # App Store applications
 appstore 682658836 GarageBand (10.3.1)
