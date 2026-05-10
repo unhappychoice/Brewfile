@@ -46,7 +46,6 @@ if OS.mac?
   tap homebrew/cask
   tap homebrew/cask-fonts
   tap homebrew/cask-versions
-  tap michaeldfallen/formula
 
   # brews
   brew ack
@@ -61,13 +60,9 @@ if OS.mac?
   brew boost
   brew c-ares
   brew cairo
-  brew carthage
   brew cmake
   brew coreutils
   brew direnv
-  brew docbook
-  brew docbook-xsl
-  brew flyway
   brew fontconfig
   brew freetype
   brew fribidi
@@ -76,12 +71,9 @@ if OS.mac?
   brew gdbm
   brew gdk-pixbuf
   brew gettext
-  brew ghi
-  brew ghostscript
   brew ghq
   brew git
   brew git-lfs
-  brew git-radar
   brew glib
   brew gmp
   brew gnu-getopt
@@ -89,18 +81,13 @@ if OS.mac?
   brew gnutls
   brew go
   brew gobject-introspection
-  brew gperftools
   brew gradle
   brew graphite2
   brew graphviz
-  brew gts
-  brew guile
   brew harfbuzz
   brew homeshick
   brew icu4c
   brew ilmbase
-  brew imagemagick
-  brew imagemagick@6
   brew isl
   brew jansson
   brew jasper
@@ -136,20 +123,15 @@ if OS.mac?
   brew little-cms2
   brew lz4
   brew lzo
-  brew makedepend
   brew mas
   brew maven
   brew mecab
   brew mpfr
-  brew mysql@5.7
   brew nano
   brew ncurses
-  brew net-snmp
-  brew netpbm
   brew nettle
   brew nghttp2
   brew npth
-  brew openexr
   brew openjdk
   brew openjpeg
   brew openssl@1.1
@@ -164,18 +146,11 @@ if OS.mac?
   brew pkg-config
   brew postgresql
   brew pth
-  brew python@3.9
   brew readline
-  brew redis
-  brew sane-backends
   brew sbt
   brew shared-mime-info
-  brew sphinx-doc
   brew sqlite
   brew starship
-  brew ttygif
-  brew ttyrec
-  brew unbound
   brew utf8proc
   brew webp
   brew x265
