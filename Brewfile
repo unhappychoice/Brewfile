@@ -209,8 +209,6 @@ end
 # ----------------------------------------------------------------------
 
 if OS.linux?
-  tap abhimanyu003/sttr
-  tap bgreenwell/lstr
   tap unhappychoice/tap
 
   # shell / prompt / terminal
@@ -220,7 +218,6 @@ if OS.linux?
 
   # modern CLI replacements
   brew bat
-  brew choose-rust
   brew dust
   brew eza
   brew fd
@@ -228,7 +225,6 @@ if OS.linux?
 
   # system / monitoring / files
   brew btop
-  brew clipboard
 
   # git / GitHub
   brew gh
@@ -241,34 +237,19 @@ if OS.linux?
   brew pipx
 
   # network / http
-  brew ddgr
-  brew gron
   brew xh
 
   # security / crypto
   brew gpg-tui
-  brew rage
-
-  # notes / snippets / journal
-  brew jrnl
 
   # data / db
   brew libpq
-  brew qsv
 
   # media / image
   brew ffmpeg
   brew librsvg
   brew libsixel
-  brew pastel
 
   # AI / LLM
   brew ollama
-
-  # QA
-  brew typos-cli
-
-  # third-party tap formulae
-  brew sttr
-  brew lstr
 end
