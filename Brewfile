@@ -9,6 +9,35 @@ tap homebrew/core
 tap rcmdnk/file
 brew brew-file
 
+# shell / prompt / terminal
+brew fastfetch
+brew television
+brew vhs
+
+# modern CLI replacements
+brew bat
+brew dust
+brew eza
+brew fd
+brew ripgrep
+
+# system / monitoring
+brew btop
+
+# git / GitHub
+brew gh
+brew git-delete-merged-branches
+brew git-delta
+
+# language / runtime managers
+brew mise
+
+# media
+brew ffmpeg
+
+# AI / LLM
+brew ollama
+
 # ----------------------------------------------------------------------
 # macOS
 # ----------------------------------------------------------------------
@@ -211,45 +240,13 @@ end
 if OS.linux?
   tap unhappychoice/tap
 
-  # shell / prompt / terminal
-  brew fastfetch
-  brew television
-  brew vhs
-
-  # modern CLI replacements
-  brew bat
-  brew dust
-  brew eza
-  brew fd
-  brew ripgrep
-
-  # system / monitoring / files
-  brew btop
-
   # git / GitHub
-  brew gh
-  brew git-delete-merged-branches
-  brew git-delta
   brew gitmoji
-
-  # language / runtime managers
-  brew mise
-  brew pipx
-
-  # network / http
-  brew xh
-
-  # security / crypto
-  brew gpg-tui
 
   # data / db
   brew libpq
 
   # media / image
-  brew ffmpeg
   brew librsvg
   brew libsixel
-
-  # AI / LLM
-  brew ollama
 end
