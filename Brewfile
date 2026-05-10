@@ -48,7 +48,6 @@ if OS.mac?
   tap homebrew/cask-versions
   tap michaeldfallen/formula
   tap railwaycat/emacsmacport
-  tap tkengo/highway
 
   # brews
   brew ack
@@ -69,7 +68,6 @@ if OS.mac?
   brew direnv
   brew docbook
   brew docbook-xsl
-  brew emacs
   brew flyway
   brew fontconfig
   brew freetype
@@ -86,7 +84,6 @@ if OS.mac?
   brew git-lfs
   brew git-radar
   brew glib
-  brew glide
   brew gmp
   brew gnu-getopt
   brew gnupg
@@ -100,9 +97,7 @@ if OS.mac?
   brew gts
   brew guile
   brew harfbuzz
-  brew highway
   brew homeshick
-  brew hub
   brew icu4c
   brew ilmbase
   brew imagemagick
@@ -146,7 +141,6 @@ if OS.mac?
   brew mas
   brew maven
   brew mecab
-  brew mono
   brew mpfr
   brew mysql@5.7
   brew nano
@@ -155,9 +149,7 @@ if OS.mac?
   brew netpbm
   brew nettle
   brew nghttp2
-  brew nodebrew
   brew npth
-  brew oniguruma
   brew openexr
   brew openjdk
   brew openjpeg
@@ -166,7 +158,6 @@ if OS.mac?
   brew pango
   brew pcre
   brew pcre2
-  brew peco
   brew perl
   brew pinentry
   brew pinentry-mac
@@ -175,24 +166,18 @@ if OS.mac?
   brew postgresql
   brew pth
   brew python@3.9
-  brew rbenv
   brew readline
   brew redis
-  brew ruby-build
   brew sane-backends
   brew sbt
   brew shared-mime-info
   brew sphinx-doc
   brew sqlite
   brew starship
-  brew subversion
-  brew thefuck
-  brew tig
   brew ttygif
   brew ttyrec
   brew unbound
   brew utf8proc
-  brew vegeta
   brew webp
   brew x265
   brew xmlto
@@ -205,12 +190,9 @@ if OS.mac?
   cask font-ricty-diminished
   cask font-source-code-pro
   cask font-source-code-pro-for-powerline
-  cask 1password
-  cask abstract
   cask alfred
   cask android-platform-tools
   cask android-sdk
-  cask appcode
   cask chromedriver
   cask docker
   cask google-chrome
@@ -218,13 +200,11 @@ if OS.mac?
   cask intellij-idea
   cask iterm2
   cask karabiner-elements
-  cask sequel-pro
   cask slack
   cask vivaldi
   cask xquartz
 
   # App Store applications
-  appstore 1527457231 Cryptowatch Desktop (0.2.1)
   appstore 682658836 GarageBand (10.4.0)
   appstore 408981434 iMovie (10.2)
   appstore 409183694 Keynote (10.3)
