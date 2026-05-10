@@ -47,7 +47,6 @@ if OS.mac?
   tap homebrew/cask-fonts
   tap homebrew/cask-versions
   tap michaeldfallen/formula
-  tap railwaycat/emacsmacport
 
   # brews
   brew ack
