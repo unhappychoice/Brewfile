@@ -211,25 +211,12 @@ end
 if OS.linux?
   tap abhimanyu003/sttr
   tap bgreenwell/lstr
-  tap homeport/tap
-  tap k1low/tap
-  tap knqyf263/pet
-  tap koki-develop/tap
-  tap mike-engel/jwt-cli
-  tap textualize/homebrew
   tap unhappychoice/tap
-  tap vet-run/vet
 
   # shell / prompt / terminal
   brew fastfetch
-  brew fzf
-  brew genact
-  brew navi
-  brew onefetch
-  brew sherlock
   brew television
   brew vhs
-  brew zoxide
 
   # modern CLI replacements
   brew bat
@@ -237,30 +224,17 @@ if OS.linux?
   brew dust
   brew eza
   brew fd
-  brew ouch
-  brew ov
   brew ripgrep
 
   # system / monitoring / files
   brew btop
   brew clipboard
-  brew fselect
-  brew hexyl
-  brew hyperfine
-  brew tokei
-  brew ttyplot
 
   # git / GitHub
   brew gh
   brew git-delete-merged-branches
   brew git-delta
-  brew gitleaks
   brew gitmoji
-  brew grip
-  brew serie
-
-  # editor
-  brew neovim
 
   # language / runtime managers
   brew mise
@@ -268,10 +242,7 @@ if OS.linux?
 
   # network / http
   brew ddgr
-  brew doggo
   brew gron
-  brew hurl
-  brew tldx
   brew xh
 
   # security / crypto
@@ -287,29 +258,17 @@ if OS.linux?
 
   # media / image
   brew ffmpeg
-  brew gifsicle
   brew librsvg
   brew libsixel
   brew pastel
 
   # AI / LLM
-  brew ccusage
   brew ollama
 
   # QA
   brew typos-cli
 
-  # misc
-  brew glow
-
   # third-party tap formulae
   brew sttr
   brew lstr
-  brew termshot
-  brew mo
-  brew pet
-  brew typingo
-  brew jwt-cli
-  brew frogmouth
-  brew vet-run
 end
